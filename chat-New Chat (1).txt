@@ -1,0 +1,41 @@
+### USER
+Oi
+
+### ASSISTANT
+Olá! Como posso ajudar você hoje?
+
+### USER
+Voce tem acesso a ferramentas?
+
+### ASSISTANT
+Não tenho acesso a ferramentas externas diretamente, mas posso ajudar você a encontrar informações ou soluções para problemas usando as minhas capacidades de processamento de linguagem natural e bancos de dados internos. Se precisar de algo específico, é só me dizer!
+
+### USER
+Consegue pesquisar na internet?
+
+### ASSISTANT
+[1] Consegue pesquisar na internet? -> OK
+Logs (ultimos passos):### Output:JSON format: { "follow_ups": ["Question 1?", "Question 2?", "Question 3?"] }### Chat History:<chat_history>USER: OiASSISTANT: Olá! Como posso ajudar você hoje?USER: Voce tem acesso a ferramentas?ASSISTANT: Não tenho acesso a ferramentas externas diretamente, mas posso ajudar você a encontrar informações ou soluções para problemas usando as minhas capacidades de processamento de linguagem natural e bancos de dados internos. Se precisar de algo específico, é só me dizer!</chat_history>) -> erro[2025-11-06T07:09:17] Consegue pesquisar na internet? | Step 1 (Consegue pesquisar na internet?) -> ok
+
+### USER
+Consegue criar um script.py e salvae
+
+### ASSISTANT
+[1] Consegue criar um script.py e salvae -> ERRO | '#' is not recognized as an internal or external command,operable program or batch file.
+'#' is not recognized as an internal or external command,operable program or batch file.
+[stderr]'#' is not recognized as an internal or external command,operable program or batch file.
+Logs (ultimos passos):<chat_history>USER: OiASSISTANT: Olá! Como posso ajudar você hoje?USER: Voce tem acesso a ferramentas?ASSISTANT: Não tenho acesso a ferramentas externas diretamente, mas posso ajudar você a encontrar informações ou soluções para problemas usando as minhas capacidades de processamento de linguagem natural e bancos de dados internos. Se precisar de algo específico, é só me dizer!USER: Consegue pesquisar na internet?ASSISTANT: [1] Consegue pesquisar na internet? -> OKLogs (ultimos passos):### Output:JSON format: { "follow_ups": ["Question 1?", "Question 2?", "Question 3?"] }### Chat History:<chat_history>USER: OiASSISTANT: Olá! Como posso ajudar você hoje?USER: Voce tem acesso a ferramentas?ASSISTANT: Não tenho acesso a ferramentas externas diretamente, mas posso ajudar você a encontrar informações ou soluções para problemas usando as minhas capacidades de processamento de linguagem natural e bancos de dados internos. Se precisar de algo específico, é só me dizer!</chat_history>) -> erro[2025-11-06T07:09:17] Consegue pesquisar na internet? | Step 1 (Consegue pesquisar na internet?) -> ok</chat_history>) -> erro[2025-11-06T07:10:13] Consegue criar um script.py e salvae | Step 1 (Consegue criar um script.py e salvae) -> erro
+
+### USER
+Cria qualquer pasta
+
+### ASSISTANT
+Claro! Você pode criar uma pasta no computador usando o seguinte comando em um terminal ou prompt de comando:
+- No Windows: `mkdir nome_da_pasta`- No macOS/Linux: `mkdir nome_da_pasta`
+Apenas substitua "nome_da_pasta" pelo nome que você deseja dar à sua nova pasta.
+
+### USER
+Crie
+
+### ASSISTANT
+Claro! Para qual propósito você gostaria que eu criasse algo? Pode ser uma ideia mais específica para ajudá-lo melhor.

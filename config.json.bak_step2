@@ -1,0 +1,112 @@
+{
+  "theme": "dark",
+  "profile": "high",
+  "vram_gb": 16.0,
+  "project_dir": "E:\\PitronStorage\\codeiaprendi - Copy\\pitronia_FIXED_v13",
+  "models_chain": [
+    "qwen2.5:7b-instruct-q4_K_M",
+    "deepseek-coder:6.7b",
+    "gpt-oss:latest",
+    "phi3:mini"
+  ],
+  "llm_mode": "light",
+  "keep_alive_seconds": 3600,
+  "primary": "qwen2.5:7b-instruct-q4_K_M",
+  "fallbacks": [
+    "deepseek-coder:6.7b",
+    "gpt-oss:latest",
+    "phi3:mini"
+  ],
+  "allowed_roots": [
+    "E:\\PitronStorage\\codeiaprendi - Copy\\pitronia_FIXED_v13",
+    "E:\\"
+  ],
+  "intent_model": "phi3:mini",
+  "integrations": {
+    "langflow": {
+      "base_url": "http://127.0.0.1:7861",
+      "api_key": null,
+      "default_flow_id": null,
+      "timeout": 120,
+      "input_key": "input"
+    },
+    "flowise": {
+      "base_url": "",
+      "api_key": null,
+      "default_flow_id": null,
+      "timeout": 60
+    },
+    "manus_sandbox": {
+      "base_url": "",
+      "token": null,
+      "timeout": 60
+    },
+    "agentgpt": {
+      "language": "pt-br"
+    },
+    "anythingllm": {
+      "base_url": "",
+      "api_key": null,
+      "timeout": 60
+    },
+    "gpt_researcher": {
+      "repo_path": "",
+      "python": null,
+      "timeout": 600,
+      "report_type": "research_report",
+      "tone": "objective",
+      "env_file": null
+    },
+    "vision_agents": {
+      "repo_path": "",
+      "python": null,
+      "script": "dev.py",
+      "timeout": 600,
+      "env_file": null
+    },
+    "ufo": {
+      "repo_path": "",
+      "python": null,
+      "timeout": 600,
+      "env": null
+    },
+    "self_operating_computer": {
+      "repo_path": "",
+      "python": null,
+      "timeout": 600,
+      "env": null
+    },
+    "paddleocr": {
+      "lang": "en",
+      "use_angle_cls": false,
+      "model_directory": null,
+      "python_path": "E:\\\\PitronStorage\\\\codeiaprendi - Copy\\\\pitronia_FIXED_v13\\\\~\\\\paddle-env\\\\Lib\\\\site-packages"
+    },
+    "after_effects_bridge": {
+      "repo_path": "",
+      "temp_dir": null,
+      "wait_timeout": 20,
+      "poll_interval": 0.5
+    }
+  },
+  "intent_router": {
+    "enabled": true,
+    "dataset_path": "E:\\PitronStorage\\codeiaprendi - Copy\\pitronia_FIXED_v13\\intensao_repo\\pitron_command_router.json",
+    "min_confidence": 0.58,
+    "top_k": 5
+  },
+  "context_length": 8192,
+  "autonomy": true,
+  "auto_backup": true,
+  "memory_file": "E:\\PitronStorage\\codeiaprendi - Copy\\pitronia_FIXED_v13\\memory.json",
+  "backups_dir": "E:\\PitronStorage\\codeiaprendi - Copy\\pitronia_FIXED_v13\\backups",
+  "port": 7860,
+  "ollama_host": "http://127.0.0.1:11434",
+  "remote_access": {
+    "enabled": false,
+    "provider": "ngrok",
+    "token_configured": false,
+    "public_url": null,
+    "qr_path": null
+  }
+}

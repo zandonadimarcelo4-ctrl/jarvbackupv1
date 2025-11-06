@@ -1,0 +1,34 @@
+{
+  "theme": "dark",
+  "profile": "high",
+  "vram_gb": 16.0,
+  "project_dir": "E:\\PitronStorage\\codeiaprendi - Copy\\pitronia_FIXED_v13",
+  "models_chain": [
+    "gpt-oss:latest",
+    "qwen2.5:7b-instruct",
+    "deepseek-coder:6.7b",
+    "phi3:medium"
+  ],
+  "llm_mode": "light",
+  "keep_alive_seconds": 0,
+  "primary": "gpt-oss:latest",
+  "fallbacks": [
+    "qwen2.5:7b-instruct",
+    "deepseek-coder:6.7b",
+    "phi3:medium"
+  ],
+  "context_length": 8192,
+  "autonomy": true,
+  "auto_backup": true,
+  "memory_file": "E:\\PitronStorage\\codeiaprendi - Copy\\pitronia_FIXED_v13\\memory.json",
+  "backups_dir": "E:\\PitronStorage\\codeiaprendi - Copy\\pitronia_FIXED_v13\\backups",
+  "port": 7860,
+  "ollama_host": "http://127.0.0.1:11434",
+  "remote_access": {
+    "enabled": false,
+    "provider": "ngrok",
+    "token_configured": false,
+    "public_url": null,
+    "qr_path": null
+  }
+}

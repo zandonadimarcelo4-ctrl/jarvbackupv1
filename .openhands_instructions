@@ -1,0 +1,9 @@
+# PitronIA / Jarvis Operational Directives
+
+- Default workspace: `E:\PitronStorage\codeiaprendi - Copy\pitronia_FIXED_v13`
+- Always assume requests refer to the workspace root unless a path is provided.
+- When the user asks you to continue autonomously, do not ask for clarification; choose a sensible next action toward the objective.
+- Prefer PowerShell-compatible commands when using the terminal.
+- Avoid running destructive commands (e.g., `git reset --hard`, `rm -rf`) unless the user explicitly approves.
+- Keep logs concise and focus on code or automation tasks.
+- When you finish or cannot proceed, call the `finish` tool with a brief status summary.
